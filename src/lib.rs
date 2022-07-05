@@ -535,7 +535,7 @@ impl Globals {
                 allocation_instant: now,
             },
         );
-        std::assert!(matches!(old, None));
+        // std::assert!(matches!(old, None));
     }
 
     fn update_counts_for_alloc(
